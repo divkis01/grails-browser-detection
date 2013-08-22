@@ -262,6 +262,14 @@ class UserAgentIdentService extends WebTierService {
 		getUserAgent().operatingSystem.name
 	}
 
+	String getManufacturer() {
+        getUserAgent().browser.manufacturer
+	}
+
+	String getDeviceType() {
+		getUserAgent().operatingSystem.deviceType
+	}
+
 	@Deprecated
 	String getPlatform() {
 		getUserAgent().operatingSystem
