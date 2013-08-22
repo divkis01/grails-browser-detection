@@ -1,9 +1,9 @@
 class BrowserDetectionGrailsPlugin {
-    def version = "0.4.3"
+    def version = "0.4.3.1-snapshot"
     def grailsVersion = "1.2.2 > *"
 
-    def author = "Gennady Tsarik"
-    def authorEmail = "vare6gin@gmail.com"
+    def author = "Divick Kishore"
+    def authorEmail = "divick.kishore@gmail.com"
     def title = "Browser detection"
     def description = '''\\
 This plugin provides service and tag library for browser detection. You can know what is the browser, version, operating system and language specified in request headers.
